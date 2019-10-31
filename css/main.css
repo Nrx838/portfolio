@@ -7,7 +7,7 @@ scroll-behavior: smooth;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	height: 100vh;
+	height: 115vh;
 	text-align: right; 
 	z-index: 5;
 	position: relative;
@@ -58,12 +58,12 @@ scroll-behavior: smooth;
 	background-image: url("../img/susu.png");
 	background-position: center;
 	background-size: cover;
-	height: 100vh;
+	height: 100%;
 	
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin-top: -8.5vh;
+	margin-top: -10vh ;
 }
 .education_title{
 	font-family: Name;
@@ -91,6 +91,13 @@ scroll-behavior: smooth;
 /*----------------About me-----------------*/
 .about{
 	margin-top:5vh;
+
+
+}
+.abot_container{
+	display: flex;
+	flex-direction: column;
+
 }
 .about_title{
 	font-family: Name;
@@ -106,7 +113,7 @@ scroll-behavior: smooth;
  }
 .about_text{
 	font-family: Name;
-	font-size: 28pt;
+	font-size: 40pt;
 }
 /*----------------slider-----------------*/
 .about_chel{
@@ -118,6 +125,7 @@ scroll-behavior: smooth;
 	margin-top: 5vh;
 	color: #636e72;
 	border: double grey;
+	width: 100%;
 }
 .slider_text{
 	font-family: Name;
