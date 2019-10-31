@@ -1,0 +1,263 @@
+/*--------------------HEAD-----------------*/
+html {
+scroll-behavior: smooth;
+}
+.header1{
+	background-image: url('../img/hero2.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+	text-align: right; 
+	z-index: 5;
+	position: relative;
+
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	justify-content: flex-start;
+}
+.navbar{
+	position: fixed;
+ 	width: 100%;
+ 	z-index: 999999;
+ 	opacity:.5;
+ 	font-size: 12pt; 
+ }
+.header1_title{
+	font-size: 60pt;
+	margin-top: 10vh;
+	margin-right: 2vh;
+	font-family: Name;
+}
+.header1_slogan{
+	font-size: 40pt;
+	margin-top: 5vh;
+	margin-right: 2vh;
+	font-family: Name;
+}
+.header1_arrow{
+	position: absolute;
+	bottom: 5vh;
+	right: 47.5%;
+}	
+.header1_arrow1{
+	width: 10%
+}
+.header1_arrow1:hover {
+  opacity:.5;
+}
+@font-face {
+	font-family: 'Name';
+    src: url(../fonts/TCCEB.TTF);
+	font-weight: normal;
+    font-style: normal;
+}
+/*--------------------education-----------------*/
+.education{
+	background-image: url("../img/susu.png");
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: -8.5vh;
+}
+.education_title{
+	font-family: Name;
+	font-size: 60pt;
+	margin-top: 20vh;
+	opacity: .6;
+}
+.education_text{
+	font-family: Name;
+	font-size: 30pt;
+	text-align: center;
+	margin-top: 15vh;
+	opacity: .6;
+	text-transform: uppercase;
+}
+.education_error{
+	font-family: Name;
+	font-size: 20pt;
+	text-align: center;
+	margin-top: 10vh;
+	text-transform: uppercase;
+	opacity: .7;
+	text-decoration: underline;
+}
+/*----------------About me-----------------*/
+.about{
+	margin-top:5vh;
+}
+.about_title{
+	font-family: Name;
+	font-size: 60pt;
+	text-align: center;
+	margin-top: 5vh;
+}
+.circle{
+	width: 50%;
+  	height: auto;
+  	float: left;
+  	shape-outside: circle(50%);
+ }
+.about_text{
+	font-family: Name;
+	font-size: 28pt;
+}
+/*----------------slider-----------------*/
+.about_chel{
+	font-family: Name;
+	font-size: 60pt;
+	text-transform: uppercase;
+	text-align:center;
+	opacity: 1;
+	margin-top: 5vh;
+	color: #636e72;
+	border: double grey;
+}
+.slider_text{
+	font-family: Name;
+	font-size: 60pt;
+	text-transform: uppercase;
+	margin-top: 50%;
+	opacity: .5;
+	text-shadow: #000 4px 0px 4px, #000 0px 4px 4px, #000 0px -4px 4px, #000 -4px 0px 4px;
+}
+/*----------------my_skills-----------------*/
+.skill_title{
+	font-family: Name;
+	font-size: 60pt;
+	text-align:center;
+	margin-top: 5vh;
+}
+.col{
+	text-align: center;
+	font-family: Name;
+	font-size: 30pt;
+	border: double grey;
+	margin-top:50px;
+	margin: 10px;
+}
+.skill_text{
+	text-align: center;
+	font-family: Name;
+	font-size: 15pt;
+	margin-top: -10px;
+}
+.skill_container {
+	font-family: Name;
+	font-size: 15pt;
+	margin-top: -15px;
+	width: 50%; 
+	background-color: #808080;
+	margin-bottom: 5px;
+	border: solid #000000;
+	border-width: 1px;
+}
+.skill_html{
+	font-family: Name;
+	font-size: 15pt;
+	margin-top: -15px;
+	width: 99%; 
+	background-color: #808080;
+	margin-bottom: 10px;
+	border: solid #000000;
+	border-width: 1px;
+}
+.skill_css{
+	font-family: Name;
+	font-size: 15pt;
+	margin-top: -15px;
+	width: 50%; 
+	background-color: #808080;
+	margin-bottom: 10px;
+	border: solid #000000;
+	border-width: 1px;
+}
+.skill_python{
+	font-family: Name;
+	font-size: 15pt;
+	margin-top: -15px;
+	width: 15%; 
+	background-color: #808080;
+	margin-bottom: 10px;
+	border: solid #000000;
+	border-width: 1px;
+}
+.skill_ml{
+	font-family: Name;
+	font-size: 15pt;
+	margin-top: -15px;
+	width: 11%; 
+	background-color: #808080;
+	margin-bottom: 10px;
+	border: solid #000000;
+	border-width: 1px;
+}
+.skill_neuronet{
+	font-family: Name;
+	font-size: 15pt;
+	margin-top: -15px;
+	width: 13%; 
+	background-color: #808080;
+	margin-bottom: 10px;
+	border: solid #000000;
+	border-width: 1px;
+}
+.skill_bootstrap{
+	font-family: Name;
+	font-size: 15pt;
+	margin-top: -15px;
+	width: 40%; 
+	background-color: #808080;
+	margin-bottom: 10px;
+	border: solid #000000;
+	border-width: 1px;
+}
+.skill_flex{
+	font-family: Name;
+	font-size: 15pt;
+	margin-top: -15px;
+	width: 70%; 
+	background-color: #808080;
+	margin-bottom: 10px;
+	border: solid #000000;
+	border-width: 1px;
+}
+.skill_photo{
+	font-family: Name;
+	font-size: 15pt;
+	margin-top: -15px;
+	width: 80%; 
+	background-color: #808080;
+	margin-bottom: 10px;
+	border: solid #000000;
+	border-width: 1px;
+}
+.col:hover {
+  background: #53ea93;
+}
+/*----------------contact_me-----------------*/
+.contact_title{
+	font-family: Name;
+	font-size: 60pt;
+	text-align: center;
+	margin-top: 5vh;
+}
+.contact_content{
+	display: flex;
+	justify-content: space-between;
+	margin-right:10vh;
+	margin-left: 10vh;
+	margin-top: 5Vh;
+	margin-bottom: 5Vh
+}
+.big:hover {
+  -webkit-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  transform: scale(1.5);
+}
